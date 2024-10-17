@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandrasish's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./image/home.png" type="image/icon type">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class ="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class ="active" style="--i:1;">Home</a>  
+            <!-- for class ="active" -->
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#skill" style="--i:3;">Skills</a>
+            <a href="#project" style="--i:4;">Projects</a>
+            <a href="#contact" style="--i:5;">Contact Me</a>
+        </nav>
+    </header>
+    <section class ="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Chandrasish Bhattacharya</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Hello everyone, I’m Chandrasish Bhattacharya, currently a 3rd-year BTech student at BPPIMT.
+                I’m passionate about web design, development, and photography, constantly exploring new ways to combine creativity and technology.
+                With experience in creating websites, designing content, and working with facial detection technology, I enjoy building practical and visually engaging solutions.</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/itz_funzoneff/" target="_blank" style="--i:7;"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/chandrasish.bhattacharya.73/" target="_blank" style="--i:8;"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/chandrasish-bhattacharya/" target="_blank" style="--i:9;"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.youtube.com/@DevMind_Hub" target="_blank" style="--i:10;"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <a href="#" target="_blank" class = "btn">Downloard Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="./assets/images/image1.png" alt="image">
+        </div>
+    </section>
+    <!-- About section -->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="./assets/images/image1.png" alt="image">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer !</h3>
+            <p>
+                Hello everyone, I’m Chandrasish Bhattacharya, a 3rd-year BTech student at BPPIMT. My passions lie in web design, development, and photography, and I’m always eager to blend creativity with technology. Over the years, I’ve worked on various projects that showcase my skills, including a hotel management system and a portfolio website, both of which highlight my ability to create functional and visually appealing web applications.
+                I’ve also explored facial detection technology using cv2 and Mediapipe, developing applications that can be utilized for attendance systems and unlock systems. In addition to my technical skills, I have experience creating engaging content as a GDG Design core member, producing posts and thumbnails for various clients and YouTube channels.
+                Though I tend to be an introverted person and generally prefer solitude, I thrive in team environments where I can take on a leadership role. When I am part of a team, I can assure you that I will bring my best to the table and inspire others to excel. If given the opportunity, I am confident in my ability to prove my skills and guide my team to success. Thank you for your time!
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+     </section>
+     <!-- Service Section  -->
+      <section class="skill" id="skill">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skill-container">
+            <div class="skill-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>I have worked on multiple web development projects, including a hotel management system and a portfolio website, focusing on delivering functional and user-friendly experiences. 
+                These projects demonstrate a range of skills in front-end and back-end development.
+                </p>
+                <a href="https://github.com/DEVMindsHUb/Main-Page/tree/main" taget="_blank"class="btn">Demo</a>
+            </div>
+        
+        <div class="skill-box">
+            <i class="fa-solid fa-video"></i>
+            <h3>Video Editing</h3>
+            <p>I have worked as a video editor for multiple YouTube channels from 2020 to the present, crafting engaging and polished video content to support creators in growing their audiences.
+            This experience spans diverse content styles and editing techniques.
+            </p>
+            <a href="#" class="btn">Demo</a>
+        </div>
+    
+        <div class="skill-box">
+            <i class="fa-solid fa-paintbrush"></i>
+            <h3>Graphic Designing</h3>
+            <p>As a GDG Design core member, I have created a wide range of posts and thumbnails, enhancing visual content for various platforms.
+            I’ve also collaborated with multiple YouTube channels to help elevate their design and branding efforts.
+            </p>
+            <a href="https://www.youtube.com/@DevMind_Hub/" target="_blank" class="btn">Read More</a>
+        </div>
+    </div>
+      </section>
+      
+      <!-- Project section -->
+       <section class="project" id="project">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="project-container">
+            <div class="project-box">
+                <img src="./assets/images/image2.jpg" alt="Facial Recognition">
+                <div class="project-layer">
+                    <h4>Facial Detection</h4>
+                    <p>Developed a facial detection system using cv2 and Mediapipe that accurately detects faces and creates face masks. 
+                        The technology is designed for use in applications like attendance systems and unlock systems.</p>
+                    <a href="https://github.com/Chandrasish-Bhattacharya/PYTHON_PROJECTS" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="project-box">
+                <img src="./assets/images/image3.jpg" alt="DSA Image">
+                <div class="project-layer">
+                    <h4>Hotel Management System</h4>
+                    <p>I developed a hotel management system for a college project, handling reservations and customer information.</p>
+                    <a href="https://chandrasish-bhattacharya.github.io/Hotel-Management-System/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div> 
+            </div>
+            <div class="project-box">
+                <img src="./assets/images/image4.jpg" alt="DSA Image">
+                <div class="project-layer">
+                    <h4>Robotics</h4>
+                    <p>I led a robotics team that built various robots, including line followers and RC boats. 
+                    This experience not only enhanced my technical skills but also taught me valuable lessons in teamwork and problem-solving as we tackled different challenges in the competition.</p>
+                    <a href="https://www.instagram.com/brahmastra_main_cse?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div> 
+            </div>
+            </div>
+        </div>
+       </section>
+
+       <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me! </span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" id="#">
+                    <input type="email" placeholder="Email" id="#">    
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number" id="#">
+                    <input type="text" placeholder="Email Subject" id="#">       
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>
+                   Copyright &copy; 2024 by Chandrasish Bhattacharya. All Rights Reserved.
+                </p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </footer>
+    
+    <!-- Type Script -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Custom Js -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
